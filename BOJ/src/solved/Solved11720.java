@@ -1,6 +1,8 @@
-import java.util.*;
+package solved;
 
-public class Main {
+import java.util.Scanner;
+
+public class Solved11720 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int N = in.nextInt();
