@@ -35,18 +35,18 @@ public class Solved1157{
 		for(int i :abcArr){
 			count+=(i==max)?1:0;
 		}
-		if(count==1){ //가장 큰 값을 가진(입력이 많이된) 알파벳을 꺼낸뒤에 (char)붙여서 띄워버림
+		if(count==1){ //가장 큰 값을 가진(입력이 많이된) 배열을 max값에 넣어서 result에 아스키코드로 저장
 			for(int i=0;i<26;i++){
 				if(max==abcArr[i]){
 					result=i+65;
 					break;
 				}
 			}
-		}else{
+		}else{ //count가 1이 아니라는 소리는 i값이 max가 아니므로 동일하게 입력된값이 존재 -> ? 출력
 			System.out.println("?");
 			return;
 		}
-		char result_char = (char) result;
+		char result_char = (char) result; //아스키코드로 저장된 값을 출력
 		System.out.println(result_char);
 	}
 }
