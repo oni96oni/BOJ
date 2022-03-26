@@ -1,6 +1,8 @@
+package solved;
+
 import java.util.Scanner;
 
-public class Main {
+public class Solved1193 {
 
 	public static void main(String[] args) {
 
