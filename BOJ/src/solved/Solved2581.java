@@ -49,7 +49,7 @@ public class Solved2581 {
 		for(int i = 2; i <= Math.sqrt(prime.length); i++) {
 			if(prime[i]) continue;	// 이미 체크된 배열일 경우 skip
 			for(int j = i * i; j < prime.length; j += i) {
-				prime[j] = true;
+				prime[j] = true; //true 체크가 된것은 소수가 아니라는것!
 			}
 		}
 		
