@@ -1,4 +1,6 @@
-public class Main {
+package solved;
+
+public class Solved25083 {
 	public static void main(String[] args) {
 		System.out.println("         ,r'\"7");
 		System.out.println("r`-_   ,'  ,/");
